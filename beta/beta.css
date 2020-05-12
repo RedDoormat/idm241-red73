@@ -1,4 +1,4 @@
-/* Style Sheet for Index Page Alpha Assignment*/
+/*Beta CSS*/
 
 * { /*Helps with math of margin and padding*/
     box-sizing: border-box;
@@ -39,35 +39,4 @@ h2 {
     padding: .5rem 1rem;
     background-color: rgb(202, 202, 202);
     border-radius: 1rem;
-}
-
-.shrink {
-    width: 40vw;
-}
-
-#pre-expand {
-    width: 40vw;
-    object-fit: scale-down;
-}
-
-#expand {
-    width: 40vw;
-    object-fit: scale-down;
-}
-
-.alpha {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1rem 25vw;
-    padding: .5rem 1rem;
-    background-color: rgb(78, 78, 78);
-    border-radius: 1rem;
-    color: white;
-}
-
-.hover:hover {
-    cursor: pointer;
-    color: dodgerblue;
 }
