@@ -30,31 +30,6 @@ h2 {
     margin: 2rem;
 }
 
-.info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 1rem 25vw;
-    padding: .5rem 1rem;
-    background-color: rgb(202, 202, 202);
-    border-radius: 1rem;
-}
-
-.shrink {
-    width: 40vw;
-}
-
-#pre-expand {
-    width: 40vw;
-    object-fit: scale-down;
-}
-
-#expand {
-    width: 40vw;
-    object-fit: scale-down;
-}
-
 .alpha {
     display: flex;
     align-items: center;
@@ -70,4 +45,94 @@ h2 {
 .hover:hover {
     cursor: pointer;
     color: dodgerblue;
+}
+
+/*Computer Layout*/
+@media screen and (min-width: 1050px) {
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 25vw;
+        padding: .5rem 1rem;
+        background-color: rgb(202, 202, 202);
+        border-radius: 1rem;
+    }
+
+    .shrink {
+        width: 40vw;
+    }
+
+    #pre-expand {
+        width: 40vw;
+        object-fit: scale-down;
+    }
+
+    #expand {
+        width: 40vw;
+        object-fit: scale-down;
+    }
+
+}
+
+/*Tablet Layout*/
+@media screen and (max-width: 1049px) {
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 10vw;
+        padding: .5rem 1rem;
+        background-color: rgb(202, 202, 202);
+        border-radius: 1rem;
+    }
+
+    .shrink {
+        width: 50vw;
+    }
+
+    #pre-expand {
+        width: 50vw;
+        object-fit: scale-down;
+    }
+
+    #expand {
+        width: 50vw;
+        object-fit: scale-down;
+    }
+
+}
+
+/*MOBILE MODE*/
+@media screen and (max-width: 640px) {
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 5vw;
+        padding: .5rem 1rem;
+        background-color: rgb(202, 202, 202);
+        border-radius: 1rem;
+    }
+
+    .shrink {
+        width: 60vw;
+    }
+
+    #pre-expand {
+        width: 60vw;
+        object-fit: scale-down;
+    }
+
+    #expand {
+        width: 60vw;
+        object-fit: scale-down;
+    }
+
 }
