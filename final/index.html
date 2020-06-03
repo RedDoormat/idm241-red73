@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDM241 Red73 Final</title>
+
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <div class="border">
+        <div class="header">
+            <h1>Reid Dumont</h1>
+            <h2>Final Micro Interaction Explanation</h2>
+        </div>
+
+        <div class="info">
+            <p>
+                <b>Link:</b> <a href="http://reiddumont.com/portfolio.html">http://reiddumont.com/portfolio.html</a><br>
+                <b>Triggers:</b> User clicks either arrow pointing left or right.<br>
+                <b>Rules:</b> When the user clicks an arrow, the image in the carousel will change. Clicking
+                an arrow opposite of the previous clicked will take the user to the previous image they saw.
+                If the user goes through all the images and clicks the same arrow again, the carousel will repeat
+                from the first image.<br>
+                <b>Feedback:</b> The image being displayed will change. <br>
+                <b>Loops and Modes:</b> As long as the user keeps clicking the arrow, the carousel will cycle. No
+                modes are present.<br>
+            </p>
+            <div class="images">
+                <div class="shrink">
+                    <img id="pre-expand" src="../images/carousel1.jpg" alt="Image carousel on first image">
+                </div>
+                <div>
+                    <img id="expand" src="../images/carousel2.jpg" alt="Image carousel on second image">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

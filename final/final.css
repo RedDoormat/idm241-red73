@@ -1,0 +1,133 @@
+/* Style Sheet for Index Page Alpha Assignment*/
+
+* { /*Helps with math of margin and padding*/
+    box-sizing: border-box;
+}
+
+html { /*More font stuff*/
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    font-size: 100%;
+    background: rgb(17, 17, 17);
+}
+
+.header {
+    color: white;
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    border-radius: 1rem;
+}
+
+h1 {
+    padding: .5rem 0 0 0;
+}
+
+h2 {
+    padding: 0 0 .5rem 0;
+}
+
+.border {
+    margin: 2rem;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 25vw;
+    padding: .5rem 1rem;
+    background-color: rgb(78, 78, 78);
+    border-radius: 1rem;
+    color: white;
+}
+
+/*Computer Layout*/
+@media screen and (min-width: 1050px) {
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 25vw;
+        padding: .5rem 1rem;
+        background-color: rgb(202, 202, 202);
+        border-radius: 1rem;
+    }
+
+    .shrink {
+        width: 40vw;
+    }
+
+    #pre-expand {
+        width: 40vw;
+        object-fit: scale-down;
+    }
+
+    #expand {
+        width: 40vw;
+        object-fit: scale-down;
+    }
+
+}
+
+/*Tablet Layout*/
+@media screen and (max-width: 1049px) {
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 10vw;
+        padding: .5rem 1rem;
+        background-color: rgb(202, 202, 202);
+        border-radius: 1rem;
+    }
+
+    .shrink {
+        width: 50vw;
+    }
+
+    #pre-expand {
+        width: 50vw;
+        object-fit: scale-down;
+    }
+
+    #expand {
+        width: 50vw;
+        object-fit: scale-down;
+    }
+
+}
+
+/*MOBILE MODE*/
+@media screen and (max-width: 640px) {
+
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 5vw;
+        padding: .5rem 1rem;
+        background-color: rgb(202, 202, 202);
+        border-radius: 1rem;
+    }
+
+    .shrink {
+        width: 60vw;
+    }
+
+    #pre-expand {
+        width: 60vw;
+        object-fit: scale-down;
+    }
+
+    #expand {
+        width: 60vw;
+        object-fit: scale-down;
+    }
+
+}
