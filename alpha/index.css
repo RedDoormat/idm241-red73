@@ -47,6 +47,18 @@ h2 {
     color: dodgerblue;
 }
 
+a {
+    color: red;
+}
+
+a:hover{
+    color: rgb(163, 0, 0);
+}
+
+a:visited{
+    color: rgb(255, 123, 0);
+}
+
 /*Computer Layout*/
 @media screen and (min-width: 1050px) {
 

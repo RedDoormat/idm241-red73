@@ -40,3 +40,15 @@ h2 {
     background-color: rgb(202, 202, 202);
     border-radius: 1rem;
 }
+
+a {
+    color: red;
+}
+
+a:hover{
+    color: rgb(163, 0, 0);
+}
+
+a:visited{
+    color: rgb(255, 123, 0);
+}
